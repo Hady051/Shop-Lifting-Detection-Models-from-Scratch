@@ -85,6 +85,3 @@ Embedded player (works on GitHub for many browsers):
   <source src="./shop_lifter_123.mp4" type="video/mp4">
   Your browser does not support the video tag. You can download or open the video using the link below.
 </video>
-
-Direct link to the file:
-[Watch shop_lifter_123.mp4](Videos/shop_lifter_123.mp4)
