@@ -77,4 +77,4 @@ Each video is processed as a sequence of frames, with the CNN extracting per-fra
 <img width="799" height="536" alt="Screenshot (1640)" src="https://github.com/user-attachments/assets/32bea404-59a5-4258-862e-8b346b3b8a08" /> 
 
 ### The Video on the Notebook
-[▶️ Watch the video here](./videos/shop_lifter_123.mp4)
+[▶️ Watch the video here](./shop_lifter_123.mp4)
