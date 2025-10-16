@@ -13,6 +13,18 @@ This project combines **Convolutional Neural Networks (CNN)** for spatial featur
 
 * Added `Receiver Operating Characteristic (ROC)` and `AUC` for extended evaluation.
 
+* Added a **function** to load a video from the `test set`, add it to a folder for **download** and **making the model predict the outcome**
+
+* Added another **function** to **load the video from the dataset itself** for **better visualization** `(128 x 128)` instead of `(64 x 64)` which the **model trained on**, **preprocessing the video for the model to train on it**, **previewing the video itself (full video) on the notebook** and **the prediction of the model**
+
+---
+
+## Important Note for improving the Model's performance
+
+### The best way to handle the dataset correctly and make the model train right, is to manually crop all videos to 75 frames (the video with the least amount of frames is 75 so that all videos have equal frames) if fps=15, we are talking about 5 seconds (preferrably less than 5 seconds to be sure eg. 4.x) or if NUM_FRAMES didn't work with 75 go for 60 or 50(worked in this code) and calculate the amount of seconds for 60 or 50 frames.
+
+### Also, make sure to crop (leave) the important part of the person going near the objects in both folders (non shoplifter, shoplifter)
+
 ---
 
 ## 📹 Overview
@@ -53,10 +65,10 @@ Each video is processed as a sequence of frames, with the CNN extracting per-fra
 
 | Metric    | Value |
 | --------- | ----- |
-| Accuracy  | 0.94  |
-| Precision | 0.95  |
-| Recall    | 0.94  |
-| F1-Score  | 0.94 |
+| Accuracy  | 0.95  |
+| Precision | 0.96  |
+| Recall    | 0.96  |
+| F1-Score  | 0.96 |
 | AUC       | 1.00  |
 
 
