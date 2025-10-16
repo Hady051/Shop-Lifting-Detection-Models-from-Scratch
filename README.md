@@ -71,7 +71,10 @@ Each video is processed as a sequence of frames, with the CNN extracting per-fra
 | F1-Score  | 0.96 |
 | AUC       | 1.00  |
 
+---
+### Different frames from different videos just for lower usage of memory for visualization
+#### the Pictures aren't really visible, because I lowered the image dimensions to `64 x 64` for lower memory usage.
+<img width="799" height="536" alt="Screenshot (1640)" src="https://github.com/user-attachments/assets/32bea404-59a5-4258-862e-8b346b3b8a08" /> 
 
-<img width="799" height="536" alt="Screenshot (1640)" src="https://github.com/user-attachments/assets/32bea404-59a5-4258-862e-8b346b3b8a08" />
-
-### the Pictures aren't really visible, because I lowered the image dimensions to `64 x 64` for lower memory usage. 
+### The Video on the Notebook
+https://github.com/user-attachments/assets/858b2c4c-864d-456b-9010-3dd8eb5e8068
