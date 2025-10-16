@@ -78,3 +78,13 @@ Each video is processed as a sequence of frames, with the CNN extracting per-fra
 
 ### The Video on the Notebook
 [▶️ Watch the video here](./shop_lifter_123.mp4)
+
+Embedded player (works on GitHub for many browsers):
+
+<video controls width="640" height="360">
+  <source src="./shop_lifter_123.mp4" type="video/mp4">
+  Your browser does not support the video tag. You can download or open the video using the link below.
+</video>
+
+Direct link to the file:
+[Watch shop_lifter_123.mp4](Videos/shop_lifter_123.mp4)
